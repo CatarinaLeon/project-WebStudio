@@ -22,7 +22,7 @@
   }
 }
 
-.portfolio-list .title {
+.portfolio-list__card-title {
   margin-top: 0;
   margin-bottom: 4px;
   color: var(--title-text-color);
@@ -30,7 +30,7 @@
   font-size: 18px;
   line-height: 2;
 }
-.portfolio-list .desc {
+.portfolio-list__card-desc {
   margin: 0;
   @include font(16px, 1.87, 400);
 }
