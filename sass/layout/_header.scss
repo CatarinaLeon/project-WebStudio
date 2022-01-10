@@ -1,0 +1,16 @@
+.header {
+  // position: relative;
+  border-bottom: 1px solid var(--bottom-line-color);
+}
+.header__nav-logo {
+  color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.web {
+  color: var(--accent-color);
+}

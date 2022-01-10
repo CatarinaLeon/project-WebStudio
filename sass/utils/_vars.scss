@@ -1,0 +1,25 @@
+/* Цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* Белый #FFFFFF */
+/* Акцент #2196F3 */
+/* Цвет фона #F5F4FA */
+/* Вторичный цвет фона #2F303A; */
+/* background: #E5E5E5; */
+/* Цвет рамки карточки #eeeeee  */
+/* Фон карточки #ffffff */
+/* background: #E5E5E5; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #f5f4fa;
+  --secondary-bg-color: #2f303a;
+  --background-card: #ffffff;
+  --card-frame-color: #eeeeee;
+  --bottom-line-color: #ececec;
+  --primery-social-color: #afb1b8;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
