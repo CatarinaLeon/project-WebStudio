@@ -603,6 +603,12 @@ body {
   margin-bottom: 0px;
 }
 
+@media screen and (min-width: 1200px) {
+  .header__contacts-item {
+    margin-bottom: 0;
+  }
+}
+
 .header__contacts-link {
   display: flex;
   align-items: center;

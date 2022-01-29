@@ -80,6 +80,9 @@
   &:last-child {
     margin-bottom: 0px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 .header__contacts-link {
   display: flex;
