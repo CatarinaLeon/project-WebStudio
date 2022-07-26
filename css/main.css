@@ -1073,7 +1073,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  padding: 63px 24px;
+  padding: 50px 25px;
   margin: 0;
   font-size: 18px;
   line-height: 1.55;
@@ -1082,7 +1082,7 @@ body {
   overflow: auto;
   color: var(--primary-white-color);
   background: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(101%);
 }
 
 .portfolio-list__link-website:hover .text-overlay,
@@ -1288,6 +1288,7 @@ body {
   border-radius: 4px;
   background-color: inherit;
   outline: none;
+  color: var(--primary-white-color);
 }
 
 .footer__form-email:focus {
