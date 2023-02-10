@@ -1,8 +1,8 @@
 .button-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 25px;
   justify-content: flex-start;
+  margin-bottom: 25px;
 }
 
 .button-list__item {
@@ -19,7 +19,7 @@
   border: 1px solid transparent;
 
   font-family: Roboto;
-  @include font(16px, 1.62, 500);
+  @include font(16px, 1.6, 500);
   cursor: pointer;
   margin-bottom: 15px;
 }
@@ -37,10 +37,8 @@
 }
 @media screen and (min-width: 768px) {
   .button-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
     justify-content: center;
+    margin-bottom: 30px;
   }
   .button-list__link {
     margin-bottom: 0;
@@ -52,10 +50,7 @@
 }
 @media screen and (min-width: 1200px) {
   .button-list {
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 50px;
-    justify-content: center;
   }
   .button-list__item:not(:last-child) {
     margin-right: 8px;

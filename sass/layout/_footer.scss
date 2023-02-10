@@ -1,6 +1,6 @@
 .footer {
   padding: 60px 0;
-  background: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 .footer__position {
   @media screen and (min-width: 768px) {
@@ -64,7 +64,7 @@
 .footer__address-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
   text-decoration: none;
 
   color: var(--footer-text-color);
@@ -139,7 +139,7 @@
   margin-top: 0;
   margin-bottom: 20px;
 
-  @include font(14px, 16px, 700);
+  @include font(14px, 1.14, 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;

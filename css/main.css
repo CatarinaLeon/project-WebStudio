@@ -49,6 +49,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -206,7 +207,7 @@ body {
   max-width: 450px;
   min-height: 581px;
   width: 100%;
-  background: var(--background-card);
+  background-color: var(--background-card);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
@@ -217,7 +218,7 @@ body {
   margin-top: 0;
   margin-bottom: 12px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
@@ -240,7 +241,7 @@ body {
   right: 8px;
   width: 30px;
   height: 30px;
-  background: transparent;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -275,7 +276,7 @@ body {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
 }
@@ -305,7 +306,7 @@ body {
 
 .form-text::placeholder {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -320,7 +321,7 @@ body {
 .check-text {
   margin-bottom: 30px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   display: flex;
@@ -406,7 +407,7 @@ body {
 
 .menu__contacts-link {
   font-size: 24px;
-  line-height: 1.167;
+  line-height: 1.17;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -564,7 +565,7 @@ body {
   width: 100%;
   height: 4px;
   display: block;
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 2px;
 }
 
@@ -660,7 +661,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img/hero/header_mob_1x.jpg);
 }
 
@@ -782,7 +783,7 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -798,7 +799,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   font-weight: 400;
   text-align: left;
 }
@@ -836,7 +837,7 @@ body {
     padding: 27px 0;
     margin: 0;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -846,7 +847,7 @@ body {
 }
 
 .command {
-  background: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -859,7 +860,7 @@ body {
 }
 
 .command__list-item {
-  background: var(--background-card);
+  background-color: var(--background-card);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -961,8 +962,8 @@ body {
 .button-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 25px;
   justify-content: flex-start;
+  margin-bottom: 25px;
 }
 
 .button-list__item:not(:last-child) {
@@ -977,7 +978,7 @@ body {
   border: 1px solid transparent;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.6;
   font-weight: 500;
   cursor: pointer;
   margin-bottom: 15px;
@@ -992,10 +993,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .button-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
     justify-content: center;
+    margin-bottom: 30px;
   }
   .button-list__link {
     margin-bottom: 0;
@@ -1008,10 +1007,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .button-list {
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 50px;
-    justify-content: center;
   }
   .button-list__item:not(:last-child) {
     margin-right: 8px;
@@ -1052,14 +1048,13 @@ body {
 .portfolio-list__card-desc {
   margin: 0;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.8;
   font-weight: 400;
 }
 
 .portfolio-list__card {
   padding: 20px 24px;
-  background: var(--background-card);
-  box-sizing: border-box;
+  background-color: var(--background-card);
 }
 
 .portfolio-list__link-website {
@@ -1076,12 +1071,12 @@ body {
   padding: 50px 25px;
   margin: 0;
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.03em;
   overflow: auto;
   color: var(--primary-white-color);
-  background: rgba(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
 }
 
@@ -1106,7 +1101,7 @@ body {
 
 .footer {
   padding: 60px 0;
-  background: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -1177,7 +1172,7 @@ body {
 .footer__address-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
   text-decoration: none;
   color: var(--footer-text-color);
 }
@@ -1256,7 +1251,7 @@ body {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;

@@ -6,7 +6,7 @@
   max-width: 450px;
   min-height: 581px;
   width: 100%;
-  background: var(--background-card);
+  background-color: var(--background-card);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -15,7 +15,7 @@
   &-text {
     margin-top: 0;
     margin-bottom: 12px;
-    @include font(20px, 23px, 700);
+    @include font(20px, 1.15, 700);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -35,7 +35,7 @@
   right: 8px;
   width: 30px;
   height: 30px;
-  background: transparent;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -71,7 +71,7 @@
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
 
   color: var(--primary-text-color);
@@ -100,7 +100,7 @@
   }
   &::placeholder {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.01em;
 
     color: rgba(117, 117, 117, 0.5);
@@ -117,7 +117,7 @@
 .check-text {
   margin-bottom: 30px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   display: flex;
